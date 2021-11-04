@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JUeKMKWTqgw+Noyg3isz2dNsbdWQvPepgT5/JVRG32Qe0au9+xnLEEs/5XZSS1zeH29OeUIJngnnnH4weQNJ4w==",
+  "success": true,
+  "projectFilePath": "/home/intern/Desktop/todolist-cli/todolist-cli.csproj",
+  "expectedPackageFiles": [
+    "/home/intern/.nuget/packages/npgsql/5.0.10/npgsql.5.0.10.nupkg.sha512",
+    "/home/intern/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

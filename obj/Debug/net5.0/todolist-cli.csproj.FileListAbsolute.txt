@@ -1,0 +1,17 @@
+/home/intern/Desktop/todolist-cli/bin/Debug/net5.0/todolist-cli
+/home/intern/Desktop/todolist-cli/bin/Debug/net5.0/todolist-cli.deps.json
+/home/intern/Desktop/todolist-cli/bin/Debug/net5.0/todolist-cli.runtimeconfig.json
+/home/intern/Desktop/todolist-cli/bin/Debug/net5.0/todolist-cli.runtimeconfig.dev.json
+/home/intern/Desktop/todolist-cli/bin/Debug/net5.0/todolist-cli.dll
+/home/intern/Desktop/todolist-cli/bin/Debug/net5.0/ref/todolist-cli.dll
+/home/intern/Desktop/todolist-cli/bin/Debug/net5.0/todolist-cli.pdb
+/home/intern/Desktop/todolist-cli/obj/Debug/net5.0/todolist-cli.csproj.AssemblyReference.cache
+/home/intern/Desktop/todolist-cli/obj/Debug/net5.0/todolist-cli.GeneratedMSBuildEditorConfig.editorconfig
+/home/intern/Desktop/todolist-cli/obj/Debug/net5.0/todolist-cli.AssemblyInfoInputs.cache
+/home/intern/Desktop/todolist-cli/obj/Debug/net5.0/todolist-cli.AssemblyInfo.cs
+/home/intern/Desktop/todolist-cli/obj/Debug/net5.0/todolist-cli.csproj.CoreCompileInputs.cache
+/home/intern/Desktop/todolist-cli/obj/Debug/net5.0/todolist-cli.dll
+/home/intern/Desktop/todolist-cli/obj/Debug/net5.0/ref/todolist-cli.dll
+/home/intern/Desktop/todolist-cli/obj/Debug/net5.0/todolist-cli.pdb
+/home/intern/Desktop/todolist-cli/obj/Debug/net5.0/todolist-cli.genruntimeconfig.cache
+/home/intern/Desktop/todolist-cli/bin/Debug/net5.0/Npgsql.dll
