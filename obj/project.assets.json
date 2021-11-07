@@ -1,7 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    ".NETCoreApp,Version=v5.0": {
+      "Npgsql/5.0.10": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
+        },
+        "compile": {
+          "lib/net5.0/Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Npgsql.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.6.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      }
+    },
+    ".NETCoreApp,Version=v5.0/win7-x86": {
       "Npgsql/5.0.10": {
         "type": "package",
         "dependencies": {
@@ -73,24 +96,24 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    ".NETCoreApp,Version=v5.0": [
       "Npgsql >= 5.0.10"
     ]
   },
   "packageFolders": {
-    "/home/intern/.nuget/packages/": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/intern/Desktop/todolist-cli/todolist-cli.csproj",
+      "projectUniqueName": "c:\\Users\\user\\InterLinkCamp\\console-todolist\\todolist-cli.csproj",
       "projectName": "todolist-cli",
-      "projectPath": "/home/intern/Desktop/todolist-cli/todolist-cli.csproj",
-      "packagesPath": "/home/intern/.nuget/packages/",
-      "outputPath": "/home/intern/Desktop/todolist-cli/obj/",
+      "projectPath": "c:\\Users\\user\\InterLinkCamp\\console-todolist\\todolist-cli.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\user\\InterLinkCamp\\console-todolist\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/intern/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -100,7 +123,6 @@
       },
       "frameworks": {
         "net5.0": {
-          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -112,29 +134,18 @@
     },
     "frameworks": {
       "net5.0": {
-        "targetAlias": "net5.0",
         "dependencies": {
           "Npgsql": {
             "target": "Package",
             "version": "[5.0.10, )"
           }
         },
-        "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
-        ],
-        "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
       }
     }
   }
