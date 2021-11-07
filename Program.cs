@@ -8,20 +8,18 @@ namespace todolist_cli
     {
         static void Main()
         {
-            // EmployeeDictionary dictionary = new EmployeeDictionary();
-            // ReadBirthdays(dictionary);
-            // dictionary.PrintBirthdays(0);
-            TodoItemRepository repo = new TodoItemRepository();
-
-            Console.WriteLine("Enter the command:\n");
-            string[] command = Console.ReadLine().Split(" ");
-
             var connString = "Host=127.0.0.1;Username=todolist_app;Password=firstBase;Database=todolist";
-
             using var conn = new NpgsqlConnection(connString);
             conn.Open();
 
-            repo.GetAndDoCommand(command, conn);
+            // EmployeeDictionary dictionary = new EmployeeDictionary();
+            // ReadBirthdays(dictionary);
+            // dictionary.PrintBirthdays(0);
+            Console.WriteLine("Enter the command:\n");
+            string[] command = Console.ReadLine().Split(" ");
+
+            ConsoleOutput todoDirectory = new ConsoleOutput(command, conn);
+            todoDirectory.DoCommand();
 
             Main();
         }
